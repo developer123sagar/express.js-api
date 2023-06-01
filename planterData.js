@@ -386,6 +386,92 @@ const planterData = [
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/23050114/2023/5/6/b8fb6681-de8c-4c3a-88ae-45ed9fe09e2e1683355261637CuteYellowGirlSucculentPlanterForHomeGardenOfficeDesktop3.jpg",
     ],
   },
+  {
+    id: crypto.randomUUID(),
+    category:"planters",
+    title: "Green girgit",
+    subtitle: "Set of 5 Polka Dot Printed Railing Planters",
+    seller: "PJ Crafts",
+    price: 1575,
+    MRP: 3500,
+    disPercentage: "55%",
+    rating: {
+      rating: 4.6,
+      ratedUser: 70,
+      fiveStar: 50,
+      fourStar: 10,
+      threeStar: 0,
+      twoStar: 0,
+      oneStar: 10,
+    },
+    disPercentage: "55%",
+    product_details: {
+      setContent: "5 railing planters",
+      matetial: "Metal",
+      color: "Multicoloured ",
+      pattern: "Polka-Dot printed",
+    },
+    size: "30.48 cm x 15.24 cm x 12.7 cm (width x height x depth)",
+    material: "Metal",
+    care: "Wipe with a clean, dry cloth when needed",
+    primaryImage:
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/productimage/2019/11/12/a0dfef85-64d8-457e-8b9d-d416ce18b5061573553068519-1.jpg",
+    additionalImages: [
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/productimage/2019/11/12/cc69bf73-16c9-4b65-8a4f-f0759116743d1573553068586-2.jpg",
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/productimage/2019/11/12/7cc2d18d-5a16-4e28-a576-65e4549eee1d1573553068672-3.jpg",
+    ],
+  },
+  {
+    id: crypto.randomUUID(),
+    category:"planters",
+    title: "Perpetual",
+    subtitle: "Grey & Green 3 Pcs Groot Thinking Succulent Planter",
+    seller: "S. S TRADEMART",
+    price: 999,
+    MRP: 1999,
+    disPercentage:"50%",
+    product_details: {
+      setContent: "3 planters",
+      matetial: "Resin",
+      color: "Grey and green ",
+      pattern: "Not included",
+    },
+    size: "14cm x 9cm x 8cm",
+    material: "Plastic",
+    care: "Wipe with clean and dry cloth to remove dust",
+    primaryImage:
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/21891314/2023/2/8/5b45dc13-1ce3-4c41-967d-123e2633198b1675862092484Showpieces1.jpg",
+    additionalImages: [
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/21891314/2023/2/8/6f8c383c-f9b6-40d7-99bf-c4e3198ef57e1675862092445Showpieces2.jpg",
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/21891314/2023/2/8/d42224f8-aabf-4b4c-9555-46ffaf78e7ec1675862092472Showpieces4.jpg",
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/21891314/2023/2/8/cdbd9e75-3873-4699-809a-fd3f480cbd331675862092495Showpieces5.jpg"
+    ],
+  },
+  {
+    id: crypto.randomUUID(),
+    category:"planters",
+    title: "Kuber Industries",
+    subtitle: "Pack of 8 Orange Solid Layered Plastic Flower Pot With Drainage Hole",
+    seller: "Kuber Mart Industries Private Limited",
+    price: 604,
+    MRP: 1099,
+    disPercentage:"45%",
+    product_details: {
+      setContent: "8 Pot Planters",
+      matetial: "Plastic",
+      color: "Orange",
+      pattern: "Solid",
+    },
+    size: "20 x 20 x 17 cm",
+    material: "Plastic",
+    care: "Wipe with clean and dry cloth to remove dust",
+    primaryImage:
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/20003462/2022/9/16/0dec3798-e8f8-47f4-878c-366418cd6e461663318559212GardenAccessories1.jpg",
+    additionalImages: [
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/20003462/2022/9/16/1d0bcdaf-dcc3-4316-b889-2241f34f779e1663318559221GardenAccessories3.jpg",
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/20003462/2022/9/16/efe924d8-e680-481d-a7f9-7b361c9eda971663318559239GardenAccessories6.jpg",
+    ],
+  },
 ];
 
 module.exports = planterData;
