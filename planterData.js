@@ -3,7 +3,7 @@ const crypto = require("crypto");
 const planterData = [
   {
     id: crypto.randomUUID(),
-    category:"planters",
+    category: "planters",
     title: "Homesake",
     seller: "INOVATION HANDART PRIVATE LIMITED",
     subtitle: "Set Of 2 Beige Macrame Plant Hangers Without Pot",
@@ -21,7 +21,7 @@ const planterData = [
     discount: 1625,
     product_details: {
       setContent: "2 Macrame plant hanger",
-      matetial: "Cotton- Rope, Metal- Hook",
+      material: "Cotton- Rope, Metal- Hook",
       color: "Beige",
       pattern: "Solid",
     },
@@ -41,7 +41,7 @@ const planterData = [
   },
   {
     id: crypto.randomUUID(),
-    category:"planters",
+    category: "planters",
     title: "Homesake",
     seller: "INOVATION HANDART PRIVATE LIMITED",
     subtitle: "Set Of 2 White Solid Planters",
@@ -59,7 +59,7 @@ const planterData = [
     discount: 1876,
     product_details: {
       setContent: "2 Planters",
-      matetial: "Ceramic",
+      material: "Ceramic",
       color: "White",
       pattern: "Solid",
     },
@@ -77,7 +77,7 @@ const planterData = [
   },
   {
     id: crypto.randomUUID(),
-    category:"planters",
+    category: "planters",
     title: "The Art House",
     subtitle: "White & Gold-Toned Metal Planter Stand",
     seller: "AARA CREATIONS",
@@ -95,7 +95,7 @@ const planterData = [
     disPercentage: "70%",
     product_details: {
       setContent: "1 Planter stand",
-      matetial: "Metal",
+      material: "Metal",
       color: "White and gold-toned",
       pattern: "Solid",
     },
@@ -112,7 +112,7 @@ const planterData = [
   },
   {
     id: crypto.randomUUID(),
-    category:"planters",
+    category: "planters",
     title: "The Art House",
     subtitle: "Gold-Toned Metal Planter Stand",
     seller: "AARA CREATIONS",
@@ -121,7 +121,7 @@ const planterData = [
     disPercentage: "70%",
     product_details: {
       setContent: "1 Planter stand",
-      matetial: "Metal",
+      material: "Metal",
       color: "Gold-toned",
       pattern: "Solid",
     },
@@ -139,7 +139,7 @@ const planterData = [
   },
   {
     id: crypto.randomUUID(),
-    category:"planters",
+    category: "planters",
     title: "TRUSTBASKET",
     subtitle: "Aster Black Textured Rack Planter Stand",
     seller: "IMPLEXIANS ECO SOLUTIONS PRIVATE LIMITED",
@@ -148,7 +148,7 @@ const planterData = [
     disPercentage: "75%",
     product_details: {
       setContent: "Planter stand",
-      matetial: "Metal",
+      material: "Metal",
       color: "Black",
       pattern: "Solid",
     },
@@ -164,7 +164,7 @@ const planterData = [
   },
   {
     id: crypto.randomUUID(),
-    category:"planters",
+    category: "planters",
     title: "Kuber Industries",
     subtitle: "Set of 5 Blue Large Plastic Hanging Flower Pot",
     seller: "Kuber Mart Industries Private Limited",
@@ -173,7 +173,7 @@ const planterData = [
     disPercentage: "42%",
     product_details: {
       setContent: "6 Piece Hanging Flower Pot Set",
-      matetial: "Plastic",
+      material: "Plastic",
       color: "Red",
       pattern: "Solid",
     },
@@ -185,21 +185,22 @@ const planterData = [
     additionalImages: [
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/18630104/2022/6/6/f56841cd-9658-42c2-b155-6ce8c08ebf711654505062773KuberIndustriesLargePlasticHangingFlowerPotForBalconyRailing2.jpg",
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/18630104/2022/6/6/6077f9bc-5b0d-44cc-a25a-a6c3e881d1371654505062824KuberIndustriesLargePlasticHangingFlowerPotForBalconyRailing3.jpg",
-      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/18630104/2022/6/6/9374fc70-627a-4082-8033-d1ab30943d251654505062814KuberIndustriesLargePlasticHangingFlowerPotForBalconyRailing6.jpg"
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/18630104/2022/6/6/9374fc70-627a-4082-8033-d1ab30943d251654505062814KuberIndustriesLargePlasticHangingFlowerPotForBalconyRailing6.jpg",
     ],
   },
   {
     id: crypto.randomUUID(),
-    category:"planters",
+    category: "planters",
     title: "Homesake",
-    subtitle: "Set Of 2 Gold-Toned & Black Metal Hammered Planter Pots with Stands",
+    subtitle:
+      "Set Of 2 Gold-Toned & Black Metal Hammered Planter Pots with Stands",
     seller: "INOVATION HANDART PRIVATE LIMITED",
     price: 1899,
     MRP: 2499,
     disPercentage: "24%",
     product_details: {
       setContent: "2 Planter Pots with Stands",
-      matetial: "Metal",
+      material: "Metal",
       color: "gold-toned & black",
       pattern: "Solid",
     },
@@ -215,7 +216,7 @@ const planterData = [
   },
   {
     id: crypto.randomUUID(),
-    category:"planters",
+    category: "planters",
     title: "Pure Home and Living",
     subtitle: "Grey Vertical Ribbed Polyfibre Clay Pot",
     seller: "DLF Brands Pvt Ltd.",
@@ -224,7 +225,7 @@ const planterData = [
     disPercentage: "35%",
     product_details: {
       setContent: "Planters",
-      matetial: "Plastic, Polyfibre Clay",
+      material: "Plastic, Polyfibre Clay",
       color: "Grey",
       pattern: "Vertical Ribbed",
     },
@@ -240,7 +241,7 @@ const planterData = [
   },
   {
     id: crypto.randomUUID(),
-    category:"planters",
+    category: "planters",
     title: "Homesake",
     subtitle: "Set Of 2 Beige Macrame Plant Hangers Without Pot",
     seller: "INOVATION HANDART PRIVATE LIMITED",
@@ -249,7 +250,7 @@ const planterData = [
     disPercentage: "20%",
     product_details: {
       setContent: "2 Macrame plant hanger",
-      matetial: "Cotton- Rope, Metal- Hook",
+      material: "Cotton- Rope, Metal- Hook",
       color: "Beige",
       pattern: "Solid",
     },
@@ -262,7 +263,8 @@ const planterData = [
       twoStar: 3,
       oneStar: 3,
     },
-    features:"Our plant hangers are made of high quality natural cotton thread, hand-woven by artisans.The hangers are durable, non-deformable, corrosion-resistant and long-term.Pot not included",
+    features:
+      "Our plant hangers are made of high quality natural cotton thread, hand-woven by artisans.The hangers are durable, non-deformable, corrosion-resistant and long-term.Pot not included",
     size: "1.04 x 0.5 x 0.5 meters (each)",
     material: "Metal, Cotton",
     care: "Wipe it with soft, clean and damp cloth to remove dirt or stain",
@@ -271,12 +273,12 @@ const planterData = [
     additionalImages: [
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/15292380/2021/8/28/ee324335-7b03-44a4-8574-7c46182f25d71630136432385Planters2.jpg",
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/15292380/2021/8/28/60cc8ad9-6b61-474a-8a12-e8655dfceb4c1630136431986Planters3.jpg",
-      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/15292380/2021/8/28/0ca32da1-9a66-47d3-a35f-ff88f43062251630136432162Planters6.jpg"
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/15292380/2021/8/28/0ca32da1-9a66-47d3-a35f-ff88f43062251630136432162Planters6.jpg",
     ],
   },
   {
     id: crypto.randomUUID(),
-    category:"planters",
+    category: "planters",
     title: "Homesake",
     subtitle: "Beige Solid Macrame Wall Hanging Floating Boho Shelves Planter",
     seller: "INOVATION HANDART PRIVATE LIMITED",
@@ -285,7 +287,7 @@ const planterData = [
     disPercentage: "75%",
     product_details: {
       setContent: "1 planter",
-      matetial: "Wood",
+      material: "Wood",
       color: "Beige",
       pattern: "Solid",
     },
@@ -298,7 +300,8 @@ const planterData = [
       twoStar: 0,
       oneStar: 0,
     },
-    features:"Our plant hangers are made of high quality natural cotton thread, hand-woven by artisans.The hangers are durable, non-deformable, corrosion-resistant and long-term.Pot not included",
+    features:
+      "Our plant hangers are made of high quality natural cotton thread, hand-woven by artisans.The hangers are durable, non-deformable, corrosion-resistant and long-term.Pot not included",
     size: "40 cm x 13 x 60 cm(Length x Width X Height)",
     material: "Wood",
     care: "Clean with a Clean Dry Soft Cloth",
@@ -311,16 +314,17 @@ const planterData = [
   },
   {
     id: crypto.randomUUID(),
-    category:"planters",
+    category: "planters",
     title: "Bonhomie",
-    subtitle: "Green & Gold-Toned Marble Ceramic Planter With Three-Legged Stand",
+    subtitle:
+      "Green & Gold-Toned Marble Ceramic Planter With Three-Legged Stand",
     seller: " Billionkart Private Limited",
     price: 396,
     MRP: 660,
     disPercentage: "40%",
     product_details: {
       setContent: "1 Planter with three leg stand",
-      matetial: "Metal, marble & ceramic",
+      material: "Metal, marble & ceramic",
       color: "Green & white gold-toned",
       pattern: "Textured",
     },
@@ -332,12 +336,12 @@ const planterData = [
     additionalImages: [
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/20980114/2022/11/29/b35f6961-5c21-4e1b-80da-6c2c3e2c1c7f1669714606929WhiteGreenMarbleCeramicPlanterWithGoldThree-LeggedStandPackO4.jpg",
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/20980114/2022/11/29/76367f50-c492-4254-8266-261d069838731669714606916WhiteGreenMarbleCeramicPlanterWithGoldThree-LeggedStandPackO7.jpg",
-      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/20980114/2022/11/29/e58c33ae-cc49-406c-9b2b-844ff35038aa1669714606989WhiteGreenMarbleCeramicPlanterWithGoldThree-LeggedStandPackO6.jpg"
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/20980114/2022/11/29/e58c33ae-cc49-406c-9b2b-844ff35038aa1669714606989WhiteGreenMarbleCeramicPlanterWithGoldThree-LeggedStandPackO6.jpg",
     ],
   },
   {
     id: crypto.randomUUID(),
-    category:"Planters",
+    category: "Planters",
     title: "Stylespace by Isha",
     subtitle: "Grey Face Shaped Fiber Wall Hanging Planter",
     seller: "KRISHIKSHA CREATIONS LLP",
@@ -346,11 +350,12 @@ const planterData = [
     disPercentage: "41%",
     product_details: {
       setContent: "Planter",
-      matetial: "Fibre",
+      material: "Fibre",
       color: "Grey",
       pattern: "Textured",
     },
-    features:"Unbreakable Fiber face Planter for home decor.Powder-coated paint makes it durable and long-lasting.Not affected by rain and sun.It can be used as an indoor or outdoor planter",
+    features:
+      "Unbreakable Fiber face Planter for home decor.Powder-coated paint makes it durable and long-lasting.Not affected by rain and sun.It can be used as an indoor or outdoor planter",
     size: "22 cm x 20 cm x 9 cm (Height x Width x Length)",
     material: "Fibre, Plastic",
     care: "Wipe with clean & dry cloth to remove dust",
@@ -363,7 +368,7 @@ const planterData = [
   },
   {
     id: crypto.randomUUID(),
-    category:"planters",
+    category: "planters",
     title: "DecorTwist",
     subtitle: "Cute Yellow & Blue Girl Succulent Planter",
     seller: "AIR Solutions",
@@ -372,7 +377,7 @@ const planterData = [
     discount: 180,
     product_details: {
       setContent: "1 Planter",
-      matetial: "Polyresin",
+      material: "Polyresin",
       color: "Grey & yellow",
       pattern: "Textured",
     },
@@ -388,7 +393,7 @@ const planterData = [
   },
   {
     id: crypto.randomUUID(),
-    category:"planters",
+    category: "planters",
     title: "Green girgit",
     subtitle: "Set of 5 Polka Dot Printed Railing Planters",
     seller: "PJ Crafts",
@@ -407,7 +412,7 @@ const planterData = [
     disPercentage: "55%",
     product_details: {
       setContent: "5 railing planters",
-      matetial: "Metal",
+      material: "Metal",
       color: "Multicoloured ",
       pattern: "Polka-Dot printed",
     },
@@ -423,16 +428,16 @@ const planterData = [
   },
   {
     id: crypto.randomUUID(),
-    category:"planters",
+    category: "planters",
     title: "Perpetual",
     subtitle: "Grey & Green 3 Pcs Groot Thinking Succulent Planter",
     seller: "S. S TRADEMART",
     price: 999,
     MRP: 1999,
-    disPercentage:"50%",
+    disPercentage: "50%",
     product_details: {
       setContent: "3 planters",
-      matetial: "Resin",
+      material: "Resin",
       color: "Grey and green ",
       pattern: "Not included",
     },
@@ -444,21 +449,22 @@ const planterData = [
     additionalImages: [
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/21891314/2023/2/8/6f8c383c-f9b6-40d7-99bf-c4e3198ef57e1675862092445Showpieces2.jpg",
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/21891314/2023/2/8/d42224f8-aabf-4b4c-9555-46ffaf78e7ec1675862092472Showpieces4.jpg",
-      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/21891314/2023/2/8/cdbd9e75-3873-4699-809a-fd3f480cbd331675862092495Showpieces5.jpg"
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/21891314/2023/2/8/cdbd9e75-3873-4699-809a-fd3f480cbd331675862092495Showpieces5.jpg",
     ],
   },
   {
     id: crypto.randomUUID(),
-    category:"planters",
+    category: "planters",
     title: "Kuber Industries",
-    subtitle: "Pack of 8 Orange Solid Layered Plastic Flower Pot With Drainage Hole",
+    subtitle:
+      "Pack of 8 Orange Solid Layered Plastic Flower Pot With Drainage Hole",
     seller: "Kuber Mart Industries Private Limited",
     price: 604,
     MRP: 1099,
-    disPercentage:"45%",
+    disPercentage: "45%",
     product_details: {
       setContent: "8 Pot Planters",
-      matetial: "Plastic",
+      material: "Plastic",
       color: "Orange",
       pattern: "Solid",
     },

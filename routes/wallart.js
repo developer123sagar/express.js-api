@@ -1,8 +1,9 @@
 const express = require("express");
 const router = express.Router();
+const datas = require("../wallartData")
 
-router.get("/furniture", (req, res) => {
-  res.send("i am the furniture");
+router.get("/wallart", (req, res) => {
+  res.send(datas);
 });
 
 module.exports = router;
