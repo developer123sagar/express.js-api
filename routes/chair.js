@@ -1,8 +1,9 @@
 const express = require("express");
 const router = express.Router();
+const datas = require("../chairData")
 
-router.get("/table", (req, res) => {
-  res.send("i am the table");
+router.get("/chairs", (req, res) => {
+  res.send(datas);
 });
 
 module.exports = router;

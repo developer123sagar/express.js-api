@@ -416,7 +416,7 @@ const wallartData = [
     material: "Paper",
     care: "Dust with dry cloth",
     primaryImage:
-    "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/18076948/2022/4/30/18c86e23-67ba-4eee-8ab1-6335371befbb1651263622209WallDecor1.jpg",
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/18076948/2022/4/30/18c86e23-67ba-4eee-8ab1-6335371befbb1651263622209WallDecor1.jpg",
     additionalImages: [
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/18076948/2022/4/30/4b9eb979-fbce-42d6-9e8a-5bd38242186c1651263622197WallDecor2.jpg",
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/18076948/2022/4/30/d9dd2b8e-7b46-4a45-987f-ebe2332bb8da1651263622217WallDecor3.jpg",
