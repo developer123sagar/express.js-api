@@ -2,7 +2,7 @@ const crypto = require("crypto");
 
 const chairData = [
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "table-covers",
     title: "Aura",
     subtitle: "Set Of 6 Red & White Printed Chair Covers",
@@ -26,7 +26,7 @@ const chairData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "table-covers",
     title: "Cortina",
     subtitle: "Set of 6 Pink & Grey Printed Chair Seat Covers",
@@ -59,7 +59,7 @@ const chairData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "table-covers",
     title: "HOUSE OF QUIRK",
     subtitle: "Set Of 6 Blue & White Printed Removable Chair Covers",
@@ -93,7 +93,7 @@ const chairData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "table-covers",
     title: "MULTITEX",
     subtitle: "Set Of 6 Chair Covers",
@@ -117,7 +117,7 @@ const chairData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "table-covers",
     title: "Cortina",
     subtitle: "Unisex Set Of 6 Beige Textured Chair Covers",
@@ -138,11 +138,11 @@ const chairData = [
     additionalImages: [
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16488088/2021/12/11/23da4ee9-0d50-4061-931c-78ec550644e91639222472046ChairCover2.jpg",
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16488088/2021/12/11/b0f34e37-640f-4be3-8a41-bd67b3ca3e3b1639222471950ChairCover4.jpg",
-      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16488088/2021/12/11/c108a6f5-c3cc-437a-8a59-a76aa99a580b1639222471622ChairCover3.jpg"
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16488088/2021/12/11/c108a6f5-c3cc-437a-8a59-a76aa99a580b1639222471622ChairCover3.jpg",
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "table-covers",
     title: "STITCHNEST",
     subtitle: "Blue & Pink 6 Pieces Printed Chair Covers",
@@ -166,7 +166,7 @@ const chairData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "table-covers",
     title: "Cortina",
     subtitle: "Set Of 6 Maroon Solid Chair Covers",
@@ -187,11 +187,11 @@ const chairData = [
     additionalImages: [
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/15527198/2021/9/19/7471c5e2-3d26-425b-9831-4e8ccfdd8e541632034244232CortinaStretchSpandexSolidDiningChairCoversforDiningRoomPack2.jpg",
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/15527198/2021/9/19/00e29c0a-5408-44fd-add3-83a6b7e7e5331632034244242CortinaStretchSpandexSolidDiningChairCoversforDiningRoomPack5.jpg",
-      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/15527198/2021/9/19/da4df041-36ae-4dac-b60a-d72ef983c1251632034244250CortinaStretchSpandexSolidDiningChairCoversforDiningRoomPack4.jpg"
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/15527198/2021/9/19/da4df041-36ae-4dac-b60a-d72ef983c1251632034244250CortinaStretchSpandexSolidDiningChairCoversforDiningRoomPack4.jpg",
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "table-covers",
     title: "STITCHNEST",
     subtitle: "White & Black Geometric Printed Chair Cover",
@@ -212,11 +212,11 @@ const chairData = [
     additionalImages: [
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16650648/2021/12/30/718feafe-7437-4e71-b30d-3b8c84c292da1640870090989ChairCover2.jpg",
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16650648/2021/12/30/e9d7537b-d643-482d-833b-bd9aab9ffe831640870090840ChairCover3.jpg",
-      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16650648/2021/12/30/499ca45f-65a5-43ed-b6ba-38490d36603f1640870090693ChairCover4.jpg"
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16650648/2021/12/30/499ca45f-65a5-43ed-b6ba-38490d36603f1640870090693ChairCover4.jpg",
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "table-covers",
     title: "Aura",
     subtitle: "Set Of 6 Yellow & Blue Printed Chair Covers",
@@ -237,11 +237,11 @@ const chairData = [
     additionalImages: [
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16454894/2021/12/10/c6af1ce2-2bcb-4061-be5c-e033067896d21639127628140ChairCover2.jpg",
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16454894/2021/12/10/46e5ad4d-79e1-456b-8d32-10e75be99d2b1639127627996ChairCover3.jpg",
-      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16454894/2021/12/10/d1f7e138-d221-4193-a132-c5db82b95db31639127628634ChairCover4.jpg"
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16454894/2021/12/10/d1f7e138-d221-4193-a132-c5db82b95db31639127628634ChairCover4.jpg",
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "table-covers",
     title: "HOUSE OF QUIRK",
     subtitle: "Set Of 6 Green & Grey Printed Non-Slip Removable Chair Covers",
@@ -262,11 +262,11 @@ const chairData = [
     additionalImages: [
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16278178/2021/11/27/0c0836b7-1f72-4da3-a6d5-db2cd3d998c11638008860465SetOf6LeafPinkFlowerPrintedElasticStretchRemovableChairCover2.jpg",
       "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16278178/2021/11/27/0635180c-5ffe-4fc0-8074-1a7f5523cd0c1638008859769SetOf6LeafPinkFlowerPrintedElasticStretchRemovableChairCover5.jpg",
-      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16278178/2021/11/27/6d6610cc-2450-45a1-adb8-fd71f96febe51638008860227SetOf6LeafPinkFlowerPrintedElasticStretchRemovableChairCover7.jpg"
+      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16278178/2021/11/27/6d6610cc-2450-45a1-adb8-fd71f96febe51638008860227SetOf6LeafPinkFlowerPrintedElasticStretchRemovableChairCover7.jpg",
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "table-covers",
     title: "Slushy Mushy",
     subtitle: "Set Of 6 Orange & Grey Printed Chair Cover",
@@ -290,7 +290,7 @@ const chairData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "table-covers",
     title: "Cortina",
     subtitle: "Black & Beige Printed Chair Cover",
@@ -323,7 +323,7 @@ const chairData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "table-covers",
     title: "HOUSE OF QUIRK",
     subtitle: "Black Checked Elastic Stretchable Chair Cover",
@@ -356,7 +356,7 @@ const chairData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "table-covers",
     title: "Aura",
     subtitle: "Grey & Pink Printed Chair Covers",
@@ -380,7 +380,7 @@ const chairData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "table-covers",
     title: "HOUSE OF QUIRK",
     subtitle: "Teal Blue & White Printed Chair Covers",
@@ -413,7 +413,7 @@ const chairData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "table-covers",
     title: "Cortina",
     subtitle: "Set Of 6 Blue & Orange Printed Chair Covers",

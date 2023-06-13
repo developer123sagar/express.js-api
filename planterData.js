@@ -2,7 +2,7 @@ const crypto = require("crypto");
 
 const planterData = [
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "planters",
     title: "Homesake",
     seller: "INOVATION HANDART PRIVATE LIMITED",
@@ -40,7 +40,7 @@ const planterData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "planters",
     title: "Homesake",
     seller: "INOVATION HANDART PRIVATE LIMITED",
@@ -76,7 +76,7 @@ const planterData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "planters",
     title: "The Art House",
     subtitle: "White & Gold-Toned Metal Planter Stand",
@@ -111,7 +111,7 @@ const planterData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "planters",
     title: "The Art House",
     subtitle: "Gold-Toned Metal Planter Stand",
@@ -138,7 +138,7 @@ const planterData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "planters",
     title: "TRUSTBASKET",
     subtitle: "Aster Black Textured Rack Planter Stand",
@@ -163,7 +163,7 @@ const planterData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "planters",
     title: "Kuber Industries",
     subtitle: "Set of 5 Blue Large Plastic Hanging Flower Pot",
@@ -189,7 +189,7 @@ const planterData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "planters",
     title: "Homesake",
     subtitle:
@@ -215,7 +215,7 @@ const planterData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "planters",
     title: "Pure Home and Living",
     subtitle: "Grey Vertical Ribbed Polyfibre Clay Pot",
@@ -240,7 +240,7 @@ const planterData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "planters",
     title: "Homesake",
     subtitle: "Set Of 2 Beige Macrame Plant Hangers Without Pot",
@@ -277,7 +277,7 @@ const planterData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "planters",
     title: "Homesake",
     subtitle: "Beige Solid Macrame Wall Hanging Floating Boho Shelves Planter",
@@ -313,7 +313,7 @@ const planterData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "planters",
     title: "Bonhomie",
     subtitle:
@@ -340,7 +340,7 @@ const planterData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "Planters",
     title: "Stylespace by Isha",
     subtitle: "Grey Face Shaped Fiber Wall Hanging Planter",
@@ -367,7 +367,7 @@ const planterData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "planters",
     title: "DecorTwist",
     subtitle: "Cute Yellow & Blue Girl Succulent Planter",
@@ -392,7 +392,7 @@ const planterData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "planters",
     title: "Green girgit",
     subtitle: "Set of 5 Polka Dot Printed Railing Planters",
@@ -427,7 +427,7 @@ const planterData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "planters",
     title: "Perpetual",
     subtitle: "Grey & Green 3 Pcs Groot Thinking Succulent Planter",
@@ -453,7 +453,7 @@ const planterData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "planters",
     title: "Kuber Industries",
     subtitle:

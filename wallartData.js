@@ -2,7 +2,7 @@ const crypto = require("crypto");
 
 const wallartData = [
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "wallart",
     title: "999Store",
     subtitle:
@@ -38,7 +38,7 @@ const wallartData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "wallart",
     title: "The Art House",
     subtitle: "Set of 3 Floral Painting Canvas Wall Art",
@@ -63,7 +63,7 @@ const wallartData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "wallart",
     title: "RANDOM",
     subtitle: "Teal Green & Gold Toned Golden Tree & Deer Wall Art",
@@ -96,7 +96,7 @@ const wallartData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "wallart",
     title: "999Store",
     subtitle: "Set Of 5 White & Green The Blessing Buddha Wall Art Frames",
@@ -130,7 +130,7 @@ const wallartData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "wallart",
     title: "Perpetual",
     subtitle: "Set Of 5 Radha Krishna Painting 3d Scenery Wall Art",
@@ -164,7 +164,7 @@ const wallartData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "wallart",
     title: "RANDOM",
     subtitle: "Set Of 5 Blue & Green Peacock Printed Framed Wall Art",
@@ -189,7 +189,7 @@ const wallartData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "wallart",
     title: "RANDOM",
     subtitle:
@@ -215,7 +215,7 @@ const wallartData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "wallart",
     title: "The Art House",
     subtitle: "Black & Yellow Printed Abstract Wood Wall Art",
@@ -248,7 +248,7 @@ const wallartData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "wallart",
     title: "Perpetual",
     subtitle: "Black & Blue 5 Pcs Adiyogi Painting Wall Art",
@@ -273,7 +273,7 @@ const wallartData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "wallart",
     title: "Perpetual",
     subtitle: "Set Of 5 Framed Painting Wall Art for Home Decoration",
@@ -297,7 +297,7 @@ const wallartData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "wallart",
     title: "SAF",
     subtitle: "Purple Set of 5 Radha Krishna Painting Wall Art",
@@ -330,7 +330,7 @@ const wallartData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "wallart",
     title: "Art Street",
     subtitle: "Set Of 2 White & Green Flower Pots Framed Canvas Wall Art",
@@ -364,7 +364,7 @@ const wallartData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "wallart",
     title: "999Store",
     subtitle: "Grey & Red Leaves Printed Canvas Wall Art",
@@ -399,7 +399,7 @@ const wallartData = [
     ],
   },
   {
-    id: crypto.randomUUID(),
+    uid: crypto.randomUUID(),
     category: "wallart",
     title: "Gallery99",
     subtitle: "Multioloured Lucky Dream Catcher Texture Paper Framed Art Print",
