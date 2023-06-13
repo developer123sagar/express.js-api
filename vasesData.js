@@ -1,8 +1,10 @@
-const crypto = require("crypto");
+// const crypto = require("crypto");
+const { v4: uuidv4 } = require('uuid');
+
 
 const vasesData = [
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "vases",
     title: "TAYHAA",
     subtitle: "White & Brown Ceramic Flower Vase",
@@ -27,7 +29,7 @@ const vasesData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "vases",
     title: "Folkstorys",
     subtitle: "Brahmani Blue Table Vase",
@@ -50,7 +52,7 @@ const vasesData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "vases",
     title: "Folkstorys",
     subtitle: "Blue & White Halianthus Floral Handpainted Vase",
@@ -74,7 +76,7 @@ const vasesData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "vases",
     title: "BS AMOR",
     subtitle: "Silver-Toned Textured Flower Vase with Flowers",
@@ -98,7 +100,7 @@ const vasesData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "vases",
     title: "Nestasia",
     subtitle: "White Solid Bouquet Vase",
@@ -121,7 +123,7 @@ const vasesData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "vases",
     title: "BS AMOR",
     subtitle:
@@ -145,7 +147,7 @@ const vasesData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "vases",
     title: "BS AMOR",
     subtitle: "Transparent Solid Glass Light LED Flower Vases",
@@ -167,7 +169,7 @@ const vasesData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "vases",
     title: "Nestasia",
     subtitle: "Nordic Pink Textured Ceramic Flower Vase",
@@ -190,7 +192,7 @@ const vasesData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "vases",
     title: "Pure Home and Living",
     subtitle: "White Yellow Botanical Printed Ceramic Flower Vase",
@@ -213,7 +215,7 @@ const vasesData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "vases",
     title: "Pure Home and Living",
     subtitle: "Blue Solid Flower Vase",
@@ -235,7 +237,7 @@ const vasesData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "vases",
     title: "Pure Home and Living",
     subtitle: "Blue Floral Patterned Medium Ceramic Flower Vase",
@@ -258,7 +260,7 @@ const vasesData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "vases",
     title: "MARKET99",
     subtitle: "Green Decorative Ceramic Flower Vase",
@@ -280,7 +282,7 @@ const vasesData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "vases",
     title: "PUREZENTO",
     subtitle: "White Ceramic Orbit Shaped Flower Vase",
@@ -304,7 +306,7 @@ const vasesData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "vases",
     title: "H&M",
     subtitle: "Transparent Glass Vase",
@@ -327,7 +329,7 @@ const vasesData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "vases",
     title: "BS AMOR",
     subtitle: "Grey Solid Flower Vase",
@@ -360,7 +362,7 @@ const vasesData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "vases",
     title: "DARTINGTON",
     subtitle: "Transparent Solid Wibble Large Vase",

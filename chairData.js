@@ -1,8 +1,9 @@
-const crypto = require("crypto");
+// const crypto = require("crypto");
+const { v4: uuidv4 } = require('uuid');
 
 const chairData = [
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "table-covers",
     title: "Aura",
     subtitle: "Set Of 6 Red & White Printed Chair Covers",
@@ -26,7 +27,7 @@ const chairData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "table-covers",
     title: "Cortina",
     subtitle: "Set of 6 Pink & Grey Printed Chair Seat Covers",
@@ -59,7 +60,7 @@ const chairData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "table-covers",
     title: "HOUSE OF QUIRK",
     subtitle: "Set Of 6 Blue & White Printed Removable Chair Covers",
@@ -93,7 +94,7 @@ const chairData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "table-covers",
     title: "MULTITEX",
     subtitle: "Set Of 6 Chair Covers",
@@ -117,7 +118,7 @@ const chairData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "table-covers",
     title: "Cortina",
     subtitle: "Unisex Set Of 6 Beige Textured Chair Covers",
@@ -142,7 +143,7 @@ const chairData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "table-covers",
     title: "STITCHNEST",
     subtitle: "Blue & Pink 6 Pieces Printed Chair Covers",
@@ -166,7 +167,7 @@ const chairData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "table-covers",
     title: "Cortina",
     subtitle: "Set Of 6 Maroon Solid Chair Covers",
@@ -191,7 +192,7 @@ const chairData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "table-covers",
     title: "STITCHNEST",
     subtitle: "White & Black Geometric Printed Chair Cover",
@@ -216,7 +217,7 @@ const chairData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "table-covers",
     title: "Aura",
     subtitle: "Set Of 6 Yellow & Blue Printed Chair Covers",
@@ -241,7 +242,7 @@ const chairData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "table-covers",
     title: "HOUSE OF QUIRK",
     subtitle: "Set Of 6 Green & Grey Printed Non-Slip Removable Chair Covers",
@@ -266,7 +267,7 @@ const chairData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "table-covers",
     title: "Slushy Mushy",
     subtitle: "Set Of 6 Orange & Grey Printed Chair Cover",
@@ -290,7 +291,7 @@ const chairData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "table-covers",
     title: "Cortina",
     subtitle: "Black & Beige Printed Chair Cover",
@@ -323,7 +324,7 @@ const chairData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "table-covers",
     title: "HOUSE OF QUIRK",
     subtitle: "Black Checked Elastic Stretchable Chair Cover",
@@ -356,7 +357,7 @@ const chairData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "table-covers",
     title: "Aura",
     subtitle: "Grey & Pink Printed Chair Covers",
@@ -380,7 +381,7 @@ const chairData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "table-covers",
     title: "HOUSE OF QUIRK",
     subtitle: "Teal Blue & White Printed Chair Covers",
@@ -413,7 +414,7 @@ const chairData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "table-covers",
     title: "Cortina",
     subtitle: "Set Of 6 Blue & Orange Printed Chair Covers",

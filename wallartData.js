@@ -1,8 +1,10 @@
-const crypto = require("crypto");
+// const crypto = require("crypto");
+const { v4: uuidv4 } = require('uuid');
+
 
 const wallartData = [
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "wallart",
     title: "999Store",
     subtitle:
@@ -38,7 +40,7 @@ const wallartData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "wallart",
     title: "The Art House",
     subtitle: "Set of 3 Floral Painting Canvas Wall Art",
@@ -63,7 +65,7 @@ const wallartData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "wallart",
     title: "RANDOM",
     subtitle: "Teal Green & Gold Toned Golden Tree & Deer Wall Art",
@@ -96,7 +98,7 @@ const wallartData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "wallart",
     title: "999Store",
     subtitle: "Set Of 5 White & Green The Blessing Buddha Wall Art Frames",
@@ -130,7 +132,7 @@ const wallartData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "wallart",
     title: "Perpetual",
     subtitle: "Set Of 5 Radha Krishna Painting 3d Scenery Wall Art",
@@ -164,7 +166,7 @@ const wallartData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "wallart",
     title: "RANDOM",
     subtitle: "Set Of 5 Blue & Green Peacock Printed Framed Wall Art",
@@ -189,7 +191,7 @@ const wallartData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "wallart",
     title: "RANDOM",
     subtitle:
@@ -215,7 +217,7 @@ const wallartData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "wallart",
     title: "The Art House",
     subtitle: "Black & Yellow Printed Abstract Wood Wall Art",
@@ -248,7 +250,7 @@ const wallartData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "wallart",
     title: "Perpetual",
     subtitle: "Black & Blue 5 Pcs Adiyogi Painting Wall Art",
@@ -273,7 +275,7 @@ const wallartData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "wallart",
     title: "Perpetual",
     subtitle: "Set Of 5 Framed Painting Wall Art for Home Decoration",
@@ -297,7 +299,7 @@ const wallartData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "wallart",
     title: "SAF",
     subtitle: "Purple Set of 5 Radha Krishna Painting Wall Art",
@@ -330,7 +332,7 @@ const wallartData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "wallart",
     title: "Art Street",
     subtitle: "Set Of 2 White & Green Flower Pots Framed Canvas Wall Art",
@@ -364,42 +366,7 @@ const wallartData = [
     ],
   },
   {
-    uid: crypto.randomUUID(),
-    category: "wallart",
-    title: "999Store",
-    subtitle: "Grey & Red Leaves Printed Canvas Wall Art",
-    seller: "SQUARE EDGE",
-    price: 1019,
-    MRP: 5999,
-    disPercentage: "83%",
-    product_details: {
-      setContent: "1 Painting",
-      color: "Grey, red and black",
-      type: "Wall Painting",
-      pattern: "Solid Frame",
-    },
-    size: "60.96 cm x 60.96 cm ( Length x Width )",
-    material: "Canvas",
-    care: "Wipe with a clean, dry cloth when needed",
-    rating: {
-      rating: 4.3,
-      ratedUser: 29,
-      fiveStar: 18,
-      fourStar: 7,
-      threeStar: 2,
-      twoStar: 0,
-      oneStar: 2,
-    },
-    primaryImage:
-      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/12341520/2020/8/27/c16ab864-f389-4d46-8cd8-2ebe0a45b37d1598513136418ArtStreetSetOf2WhiteGreenFlowerPotsFramedCanvasWallArt1.jpg",
-    additionalImages: [
-      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/12341520/2020/8/27/f9418531-87e6-4445-add8-57d2b01eedad1598513136501ArtStreetSetOf2WhiteGreenFlowerPotsFramedCanvasWallArt2.jpg",
-      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/12341520/2020/8/27/f407e969-80b2-4ecc-b1ef-3aceebb3f6481598513136576ArtStreetSetOf2WhiteGreenFlowerPotsFramedCanvasWallArt3.jpg",
-      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/12341520/2020/8/27/c5d05d2f-bc5d-4642-8513-26e3f0e2c8ca1598513136641ArtStreetSetOf2WhiteGreenFlowerPotsFramedCanvasWallArt4.jpg",
-    ],
-  },
-  {
-    uid: crypto.randomUUID(),
+    uid: uuidv4(),
     category: "wallart",
     title: "Gallery99",
     subtitle: "Multioloured Lucky Dream Catcher Texture Paper Framed Art Print",
