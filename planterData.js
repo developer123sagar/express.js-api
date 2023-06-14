@@ -338,33 +338,6 @@ const planterData = [
     ],
   },
   {
-    uid:  "77ab0dcb-a76b-4f07-ba9f-aedf35280726",
-    category: "Planters",
-    title: "Stylespace by Isha",
-    subtitle: "Grey Face Shaped Fiber Wall Hanging Planter",
-    seller: "KRISHIKSHA CREATIONS LLP",
-    price: 2011,
-    MRP: 3409,
-    disPercentage: "41%",
-    product_details: {
-      setContent: "Planter",
-      material: "Fibre",
-      color: "Grey",
-      pattern: "Textured",
-    },
-    features:
-      "Unbreakable Fiber face Planter for home decor.Powder-coated paint makes it durable and long-lasting.Not affected by rain and sun.It can be used as an indoor or outdoor planter",
-    size: "22 cm x 20 cm x 9 cm (Height x Width x Length)",
-    material: "Fibre, Plastic",
-    care: "Wipe with clean & dry cloth to remove dust",
-    primaryImage:
-      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/22943274/2023/4/29/b5161a55-1de5-46ef-8df7-1b040a7f12901682741323129Planters2.jpg",
-    additionalImages: [
-      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/22943274/2023/4/29/20937ea1-fef9-45e2-9481-7043ea3077fb1682741323155Planters1.jpg",
-      "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/22943274/2023/4/29/cd5d3d18-a63a-4a0b-be04-f4e3c34803191682741323164Planters6.jpg",
-    ],
-  },
-  {
     uid:  "77ab0dcb-a76b-4f07-ba9f-aedf35280727",
     category: "planters",
     title: "DecorTwist",
