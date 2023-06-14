@@ -1,7 +1,3 @@
-// const crypto = require("crypto");
-const { v4: uuidv4 } = require('uuid');
-
-
 const vasesData = [
   {
     uid: "c948e4a8-a16e-446f-bc29-d410adc7de18",

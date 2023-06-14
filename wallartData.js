@@ -1,7 +1,3 @@
-// const crypto = require("crypto");
-const { v4: uuidv4 } = require('uuid');
-
-
 const wallartData = [
   {
     uid: "3c1aa47c-34cc-4383-9008-886838618f33",

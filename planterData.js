@@ -1,4 +1,3 @@
-
 const planterData = [
   {
     uid: "77ab0dcb-a76b-4f07-ba9f-aedf35280715",
