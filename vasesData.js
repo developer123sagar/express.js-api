@@ -4,7 +4,7 @@ const { v4: uuidv4 } = require('uuid');
 
 const vasesData = [
   {
-    uid: uuidv4(),
+    uid: "c948e4a8-a16e-446f-bc29-d410adc7de18",
     category: "vases",
     title: "TAYHAA",
     subtitle: "White & Brown Ceramic Flower Vase",
@@ -29,7 +29,7 @@ const vasesData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "c948e4a8-a16e-446f-bc29-d410adc7de19",
     category: "vases",
     title: "Folkstorys",
     subtitle: "Brahmani Blue Table Vase",
@@ -52,7 +52,7 @@ const vasesData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "c948e4a8-a16e-446f-bc29-d410adc7de20",
     category: "vases",
     title: "Folkstorys",
     subtitle: "Blue & White Halianthus Floral Handpainted Vase",
@@ -76,7 +76,7 @@ const vasesData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "c948e4a8-a16e-446f-bc29-d410adc7de21",
     category: "vases",
     title: "BS AMOR",
     subtitle: "Silver-Toned Textured Flower Vase with Flowers",
@@ -100,7 +100,7 @@ const vasesData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "c948e4a8-a16e-446f-bc29-d410adc7de22",
     category: "vases",
     title: "Nestasia",
     subtitle: "White Solid Bouquet Vase",
@@ -123,7 +123,7 @@ const vasesData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "c948e4a8-a16e-446f-bc29-d410adc7de23",
     category: "vases",
     title: "BS AMOR",
     subtitle:
@@ -147,7 +147,7 @@ const vasesData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "c948e4a8-a16e-446f-bc29-d410adc7de24",
     category: "vases",
     title: "BS AMOR",
     subtitle: "Transparent Solid Glass Light LED Flower Vases",
@@ -169,7 +169,7 @@ const vasesData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "c948e4a8-a16e-446f-bc29-d410adc7de25",
     category: "vases",
     title: "Nestasia",
     subtitle: "Nordic Pink Textured Ceramic Flower Vase",
@@ -192,7 +192,7 @@ const vasesData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid:"c948e4a8-a16e-446f-bc29-d410adc7de26",
     category: "vases",
     title: "Pure Home and Living",
     subtitle: "White Yellow Botanical Printed Ceramic Flower Vase",
@@ -215,7 +215,7 @@ const vasesData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "c948e4a8-a16e-446f-bc29-d410adc7de27",
     category: "vases",
     title: "Pure Home and Living",
     subtitle: "Blue Solid Flower Vase",
@@ -237,7 +237,7 @@ const vasesData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "c948e4a8-a16e-446f-bc29-d410adc7de28",
     category: "vases",
     title: "Pure Home and Living",
     subtitle: "Blue Floral Patterned Medium Ceramic Flower Vase",
@@ -260,7 +260,7 @@ const vasesData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "c948e4a8-a16e-446f-bc29-d410adc7de29",
     category: "vases",
     title: "MARKET99",
     subtitle: "Green Decorative Ceramic Flower Vase",
@@ -282,7 +282,7 @@ const vasesData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "c948e4a8-a16e-446f-bc29-d410adc7de30",
     category: "vases",
     title: "PUREZENTO",
     subtitle: "White Ceramic Orbit Shaped Flower Vase",
@@ -306,7 +306,7 @@ const vasesData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "c948e4a8-a16e-446f-bc29-d410adc7de31",
     category: "vases",
     title: "H&M",
     subtitle: "Transparent Glass Vase",
@@ -329,7 +329,7 @@ const vasesData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "c948e4a8-a16e-446f-bc29-d410adc7de32",
     category: "vases",
     title: "BS AMOR",
     subtitle: "Grey Solid Flower Vase",
@@ -362,7 +362,7 @@ const vasesData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "c948e4a8-a16e-446f-bc29-d410adc7de33",
     category: "vases",
     title: "DARTINGTON",
     subtitle: "Transparent Solid Wibble Large Vase",

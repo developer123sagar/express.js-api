@@ -4,7 +4,7 @@ const { v4: uuidv4 } = require('uuid');
 
 const wallartData = [
   {
-    uid: uuidv4(),
+    uid: "3c1aa47c-34cc-4383-9008-886838618f33",
     category: "wallart",
     title: "999Store",
     subtitle:
@@ -40,7 +40,7 @@ const wallartData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "3c1aa47c-34cc-4383-9008-886838618f34",
     category: "wallart",
     title: "The Art House",
     subtitle: "Set of 3 Floral Painting Canvas Wall Art",
@@ -65,7 +65,7 @@ const wallartData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "3c1aa47c-34cc-4383-9008-886838618f35",
     category: "wallart",
     title: "RANDOM",
     subtitle: "Teal Green & Gold Toned Golden Tree & Deer Wall Art",
@@ -98,7 +98,7 @@ const wallartData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "3c1aa47c-34cc-4383-9008-886838618f36",
     category: "wallart",
     title: "999Store",
     subtitle: "Set Of 5 White & Green The Blessing Buddha Wall Art Frames",
@@ -132,7 +132,7 @@ const wallartData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "3c1aa47c-34cc-4383-9008-886838618f37",
     category: "wallart",
     title: "Perpetual",
     subtitle: "Set Of 5 Radha Krishna Painting 3d Scenery Wall Art",
@@ -166,7 +166,7 @@ const wallartData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "3c1aa47c-34cc-4383-9008-886838618f38",
     category: "wallart",
     title: "RANDOM",
     subtitle: "Set Of 5 Blue & Green Peacock Printed Framed Wall Art",
@@ -191,7 +191,7 @@ const wallartData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "3c1aa47c-34cc-4383-9008-886838618f39",
     category: "wallart",
     title: "RANDOM",
     subtitle:
@@ -217,7 +217,7 @@ const wallartData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "3c1aa47c-34cc-4383-9008-886838618f40",
     category: "wallart",
     title: "The Art House",
     subtitle: "Black & Yellow Printed Abstract Wood Wall Art",
@@ -250,7 +250,7 @@ const wallartData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "3c1aa47c-34cc-4383-9008-886838618f41",
     category: "wallart",
     title: "Perpetual",
     subtitle: "Black & Blue 5 Pcs Adiyogi Painting Wall Art",
@@ -275,7 +275,7 @@ const wallartData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "3c1aa47c-34cc-4383-9008-886838618f42",
     category: "wallart",
     title: "Perpetual",
     subtitle: "Set Of 5 Framed Painting Wall Art for Home Decoration",
@@ -299,7 +299,7 @@ const wallartData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "3c1aa47c-34cc-4383-9008-886838618f43",
     category: "wallart",
     title: "SAF",
     subtitle: "Purple Set of 5 Radha Krishna Painting Wall Art",
@@ -332,7 +332,7 @@ const wallartData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "3c1aa47c-34cc-4383-9008-886838618f44",
     category: "wallart",
     title: "Art Street",
     subtitle: "Set Of 2 White & Green Flower Pots Framed Canvas Wall Art",
@@ -366,7 +366,7 @@ const wallartData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "3c1aa47c-34cc-4383-9008-886838618f45",
     category: "wallart",
     title: "Gallery99",
     subtitle: "Multioloured Lucky Dream Catcher Texture Paper Framed Art Print",

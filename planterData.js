@@ -1,10 +1,7 @@
-// const crypto = require("crypto");
-const { v4: uuidv4 } = require('uuid');
-
 
 const planterData = [
   {
-    uid: uuidv4(),
+    uid: "77ab0dcb-a76b-4f07-ba9f-aedf35280715",
     category: "planters",
     title: "Homesake",
     seller: "INOVATION HANDART PRIVATE LIMITED",
@@ -42,7 +39,7 @@ const planterData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "77ab0dcb-a76b-4f07-ba9f-aedf35280716",
     category: "planters",
     title: "Homesake",
     seller: "INOVATION HANDART PRIVATE LIMITED",
@@ -78,7 +75,7 @@ const planterData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid: "77ab0dcb-a76b-4f07-ba9f-aedf35280717",
     category: "planters",
     title: "The Art House",
     subtitle: "White & Gold-Toned Metal Planter Stand",
@@ -113,7 +110,7 @@ const planterData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid:  "77ab0dcb-a76b-4f07-ba9f-aedf35280718",
     category: "planters",
     title: "The Art House",
     subtitle: "Gold-Toned Metal Planter Stand",
@@ -140,7 +137,7 @@ const planterData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid:  "77ab0dcb-a76b-4f07-ba9f-aedf35280719",
     category: "planters",
     title: "TRUSTBASKET",
     subtitle: "Aster Black Textured Rack Planter Stand",
@@ -165,7 +162,7 @@ const planterData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid:  "77ab0dcb-a76b-4f07-ba9f-aedf35280720",
     category: "planters",
     title: "Kuber Industries",
     subtitle: "Set of 5 Blue Large Plastic Hanging Flower Pot",
@@ -191,7 +188,7 @@ const planterData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid:  "77ab0dcb-a76b-4f07-ba9f-aedf35280721",
     category: "planters",
     title: "Homesake",
     subtitle:
@@ -217,7 +214,7 @@ const planterData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid:  "77ab0dcb-a76b-4f07-ba9f-aedf35280722",
     category: "planters",
     title: "Pure Home and Living",
     subtitle: "Grey Vertical Ribbed Polyfibre Clay Pot",
@@ -242,7 +239,7 @@ const planterData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid:  "77ab0dcb-a76b-4f07-ba9f-aedf35280723",
     category: "planters",
     title: "Homesake",
     subtitle: "Set Of 2 Beige Macrame Plant Hangers Without Pot",
@@ -279,7 +276,7 @@ const planterData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid:  "77ab0dcb-a76b-4f07-ba9f-aedf35280724",
     category: "planters",
     title: "Homesake",
     subtitle: "Beige Solid Macrame Wall Hanging Floating Boho Shelves Planter",
@@ -315,7 +312,7 @@ const planterData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid:  "77ab0dcb-a76b-4f07-ba9f-aedf35280725",
     category: "planters",
     title: "Bonhomie",
     subtitle:
@@ -342,7 +339,7 @@ const planterData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid:  "77ab0dcb-a76b-4f07-ba9f-aedf35280726",
     category: "Planters",
     title: "Stylespace by Isha",
     subtitle: "Grey Face Shaped Fiber Wall Hanging Planter",
@@ -369,7 +366,7 @@ const planterData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid:  "77ab0dcb-a76b-4f07-ba9f-aedf35280727",
     category: "planters",
     title: "DecorTwist",
     subtitle: "Cute Yellow & Blue Girl Succulent Planter",
@@ -394,7 +391,7 @@ const planterData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid:  "77ab0dcb-a76b-4f07-ba9f-aedf35280728",
     category: "planters",
     title: "Green girgit",
     subtitle: "Set of 5 Polka Dot Printed Railing Planters",
@@ -429,7 +426,7 @@ const planterData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid:  "77ab0dcb-a76b-4f07-ba9f-aedf35280729",
     category: "planters",
     title: "Perpetual",
     subtitle: "Grey & Green 3 Pcs Groot Thinking Succulent Planter",
@@ -455,7 +452,7 @@ const planterData = [
     ],
   },
   {
-    uid: uuidv4(),
+    uid:  "77ab0dcb-a76b-4f07-ba9f-aedf35280730",
     category: "planters",
     title: "Kuber Industries",
     subtitle:
